@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url(../font/Cabin.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url(../font/Cabin.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Michroma';
+    src: url(../font/Michroma.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tirra';
+    src: url(../font/Tirra.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+nav {
+    font-family: 'Inter', sans-serif;
+}
+
+.home-page {
+    font-family: 'Tirra', sans-serif;
+}
+
+.navigation {
+    font-family: 'Cabin', sans-serif;
+}
+
+.tirra {
+    font-family: 'Tirra', sans-serif;
+}
