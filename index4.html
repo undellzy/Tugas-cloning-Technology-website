@@ -1,104 +1,130 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="src/output.css" />
-  <link rel="icon" type="image/png" href="img/download.png" />
-  <title>Tugas Clone</title>
-</head>
-<body class="font-sans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="icon" type="image/png" href="img/download.png" />
+    <title>Tugas Clone</title>
+  </head>
+  <body class="font-sans">
+    <!-- Navbar Utama -->
+    <header class="bg-white border-b border-black">
+      <nav class="py-4 h-70px flex items-center px-[110px]">
+        <img
+          src="img/Screenshot_2026-04-26_145119-removebg-preview.png"
+          alt="mediatek"
+          class="w-[132px] h-auto mr-8"
+        />
 
-  <!-- Navbar Utama -->
-  <header class="bg-white border-b border-black">
-    <nav class="py-4 h-70px flex items-center px-[110px]">
-      <img
-        src="img/Screenshot_2026-04-26_145119-removebg-preview.png"
-        alt="mediatek"
-        class="w-[132px] h-auto mr-8"/>
+        <ul class="flex items-center gap-6">
+          <li>
+            <a href="#" class="text-[20px] hover:text-[#FF9800]">Products</a>
+          </li>
+          <li>
+            <a href="#" class="text-[20px] hover:text-[#FF9800]">Technology</a>
+          </li>
+          <li>
+            <a href="#" class="text-[20px] hover:text-[#FF9800]">Investors</a>
+          </li>
+          <li>
+            <a href="#" class="text-[20px] hover:text-[#FF9800]">Company</a>
+          </li>
+          <li>
+            <a href="#" class="text-[20px] hover:text-[#FF9800]">Newsroom</a>
+          </li>
+          <li>
+            <a href="#" class="text-[20px] hover:text-[#FF9800]">Video</a>
+          </li>
+          <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Blog</a></li>
+        </ul>
 
-      <ul class="flex items-center gap-6">
-        <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Products</a></li>
-        <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Technology</a></li>
-        <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Investors</a></li>
-        <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Company</a></li>
-        <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Newsroom</a></li>
-        <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Video</a></li>
-        <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Blog</a></li>
-      </ul>
+        <div class="flex items-center gap-5 ml-auto">
+          <img
+            src="img/search-interface-symbol.png"
+            alt="search"
+            class="w-7 h-7"
+          />
+          <img src="img/globe.png" alt="globe" class="w-7 h-7" />
+        </div>
+      </nav>
+    </header>
 
-      <div class="flex items-center gap-5 ml-auto">
-        <img src="img/search-interface-symbol.png" alt="search" class="w-7 h-7" />
-        <img src="img/globe.png" alt="globe" class="w-7 h-7" />
+    <!-- Navbar Sticky Saat Scroll -->
+    <div
+      id="stickyNavbar"
+      class="sticky top-0 z-50 h-[54px] bg-white/80 backdrop-blur-sm flex items-center justify-between px-[120px] border-b border-gray-200"
+    >
+      <div class="flex items-center gap-3 text-[18px]">
+        <a href="index.html" class="text-[#666666]">Home</a>
+        <span class="text-[#666666]">/</span>
+        <a href="#" class="text-black font-semibold">Investor Relations</a>
       </div>
-    </nav>
-  </header>
 
-  <!-- Navbar Sticky Saat Scroll -->
-  <div
-    id="stickyNavbar"
-    class="sticky top-0 z-50 h-[54px] bg-white/80 backdrop-blur-sm flex items-center justify-between px-[120px] border-b border-gray-200"
-  >
-    <div class="flex items-center gap-3 text-[18px]">
-      <a href="index.html" class="text-[#666666]">Home</a>
-      <span class="text-[#666666]">/</span>
-      <a href="#" class="text-black font-semibold">Investor Relations</a>
+      <div class="flex items-center gap-5 text-[18px] text-[#666666]">
+        <a href="#" class="hover:text-black">Overview</a>
+        <a href="#" class="hover:text-black">Events</a>
+        <a href="#" class="hover:text-black">Press Releases</a>
+        <a href="#" class="hover:text-black">Sustainability</a>
+        <a href="#" class="hover:text-black">Analyst Coverage</a>
+      </div>
     </div>
 
-    <div class="flex items-center gap-5 text-[18px] text-[#666666]">
-      <a href="#" class="hover:text-black">Overview</a>
-      <a href="#" class="hover:text-black">Events</a>
-      <a href="#" class="hover:text-black">Press Releases</a>
-      <a href="#" class="hover:text-black">Sustainability</a>
-      <a href="#" class="hover:text-black">Analyst Coverage</a>
-    </div>
-  </div>
-
-  <main>
-    <section class="relative h-[958px]">
-      <img
-        src="img/Investors relations_3840x1360.jpg"
-        alt="background"
-        class="w-full h-full object-cover"/>
-
-      <div class="absolute top-[95px] left-[36px] text-white">
-        <h1 class="text-[60px] leading-[1.08] font-semibold">MediaTek</h1>
-        <h1 class="text-[60px] leading-[1.08] font-light">Investor Relations</h1>
-
-        <p class="text-[22px] leading-[1.2] mt-[60px] max-w-[520px]">
-          Powering the world’s biggest brands across a diverse portfolio of industries, and driving technology leadership in Computing, Connectivity, Multimedia and more.
-        </p>
+    <main>
+      <div>
+        <img src="img/Investors relations_3840x1360.jpg" alt="" />
+        <div class="absolute top-40 text-white px-23">
+          <h1 class="text-[4rem] font-semibold">MediaTek</h1>
+          <h1 class="text-[3rem] font-light">Investor Relations</h1>
+          <p class="text-lg leading-[1.2] mt-[60px] max-w-115">
+            Powering the world’s biggest brands across a diverse portfolio of
+            industries, and driving technology leadership in Computing,
+            Connectivity, Multimedia and more.
+          </p>
+        </div>
       </div>
-    </section>
-
-      <div class="bg-[#FF9800] h-40 flex items-center justify-center">
-    <ul class="flex justify-center gap-10 text-white text-2xl">
-     <li><a href="#">FINANCIAL INFORMATION</a></li>
-     <li><a href="#">SHAREHOLDER SERVICES</a></li>
-     <li><a href="#">CORPORATE GOVERNANCE</a></li>
-     <li><a href="#">INVESTOR CALENDAR</a></li>
-     <li><a href="#">SUSTAINABILITY</a></li>
-     <li><a href="#">FAQ</a></li>
-     </ul>
+      <div class="bg-[#FF9800] py-10 3 w-full">
+        <ul class="flex gap-5 justify-center px-23 text-white text-lg">
+          <li><a href="#">FINANCIAL INFORMATION</a></li>
+          <li><a href="#">SHAREHOLDER SERVICES</a></li>
+          <li><a href="#">CORPORATE GOVERNANCE</a></li>
+          <li><a href="#">INVESTOR CALENDAR</a></li>
+          <li><a href="#">SUSTAINABILITY</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
       </div>
-      
-      <main>
-    <section class="relative h-[958px]">
-      <img
-        src="img/IR-earn-bg (2).png"
-        alt="background"
-        class="w-full h-full object-cover"/>
-        <div class="absolute inset-0 bg-black/50"></div>
-
-      <div class="absolute top-[95px] left-[36px] text-white">
-        <h1 class="text-[60px] leading-[1.08] font-semibold">MediaTek</h1>
-        <h1 class="text-[60px] leading-[1.08] font-light">Investor Relations</h1>
-
-        <p class="text-[22px] leading-[1.2] mt-[60px] max-w-[520px]">
-          Powering the world’s biggest brands across a diverse portfolio of industries, and driving technology leadership in Computing, Connectivity, Multimedia and more.
-        </p>
+      <div>
+        <div class="w-full h-80 bg-black">
+          <img
+            src="img/IR-earn-bg.webp"
+            alt=""
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="absolute top-190 flex gap-30 px-23 text-white">
+          <div class="flex flex-col">
+            <h2 class="text-3xl">1Q’26 Earnings Conference</h2>
+            <h4 class="text-xl">Apr 30, 2026</h4>
+            <a
+              href="#"
+              type="button"
+              class="py-1 px-3 bg-black/10 rounded-full border text-[#FF9800] border-[#FF9800] w-fit"
+              >View More</a
+            >
+          </div>
+          <div>
+            <div class="">
+              <h2 class="text-3xl">Upcoming Events</h2>
+              <img src="img/Events 1.png" alt="" class="w-5 h-5" />
+              <h4>1Q26 Results – Investors Conference / Language: English</h4>
+              <p>Apr 30, 2026 @03:00 PM (GMT +8)</p>
+            </div>
+            <img src="img/Events 1.png" alt="" class="w-5 h-5">
+            <h4>Monthly Sales - April 2026</h4>
+            <p>May 8, 2026 @05:00 PM (GMT +8)</p>
+          </div>
+        </div>
       </div>
-    </section>
-      </main>
-</body>
+    </main>
+  </body>
 </html>
