@@ -5,62 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/output.css" />
     <link rel="icon" type="image/png" href="img/download.png" />
+    <link rel="stylesheet" href="src/main.css" />
     <title>Tugas Clone</title>
   </head>
   <body class="font-sans">
     <!-- Navbar Utama -->
-    <header class="bg-white border-b border-black">
-      <nav class="py-4 h-70px flex items-center px-[110px]">
-        <img
-          src="img/Screenshot_2026-04-26_145119-removebg-preview.png"
-          alt="mediatek"
-          class="w-[132px] h-auto mr-8"
-        />
-        <ul class="flex items-center gap-6">
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Products</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Technology</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Investors</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Company</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Newsroom</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Video</a>
-          </li>
-          <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Blog</a></li>
-        </ul>
-        <div class="flex items-center gap-5 ml-auto">
-          <img
-            src="img/search-interface-symbol.png"
-            alt="search"
-            class="w-7 h-7"
-          />
-          <img src="img/globe.png" alt="globe" class="w-7 h-7" />
-        </div>
-      </nav>
+    <header>
+      <div class="py-4 border-b border-black bg-white">
+        <nav class="flex">
+          <a href="index.html">
+            <img
+              src="img/Screenshot_2026-04-26_145119-removebg-preview.png"
+              alt="mediatek"
+              class="w-40 h-auto ml-30 pr"
+          /></a>
+          <ul class="list-none ml-2 flex gap-5">
+            <li>
+              <a
+                href="index2.html"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Product</a
+              >
+            </li>
+            <li>
+              <a
+                href="index3.html"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Technology</a
+              >
+            </li>
+            <li>
+              <a
+                href="index4.html"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Investors</a
+              >
+            </li>
+            <li>
+              <a
+                href="index5.html"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Company</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Newsroom</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Video</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Blog</a
+              >
+            </li>
+          </ul>
+          <div class="flex items-center ml-auto mr-20 gap-5">
+            <img src="img/search-interface-symbol.png" alt="" class="w-6 h-6" />
+            <img src="img/globe.png" alt="" class="w-6 h-6" />
+          </div>
+        </nav>
+      </div>
     </header>
     <!-- Navbar Sticky Saat Scroll -->
     <div
       id="stickyNavbar"
-      class="sticky top-0 z-50 h-[54px] bg-white/80 backdrop-blur-sm flex items-center justify-between px-[120px] border-b border-gray-200"
+      class="sticky top-0 z-50 h-15 bg-white/80 backdrop-blur-sm flex items-center justify-between px-[120px] border-b border-gray-200"
     >
-      <div class="flex items-center gap-3 text-[18px]">
-        <a href="index.html" class="text-[#666666]">Home</a>
-        <span class="text-[#666666]">/</span>
-        <a href="#" class="text-[#666666]">Technology</a>
-        <span class="text-[#666666]">/</span>
-        <a href="#" class="text-black font-semibold">5G</a>
+      <div class="flex items-center gap-2 text-[#9A9A9A]">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <a href="#">Technology</a>
+        <span>/</span>
+        <a href="#" class="text-black">5G</a>
       </div>
 
-      <div class="flex items-center gap-9 text-[18px] text-[#666666]">
+      <div class="flex items-center gap-4 text-[#9A9A9A]">
         <a href="#" class="hover:text-black">Products</a>
         <a href="#" class="hover:text-black">Features</a>
         <a href="#" class="hover:text-black">Tek Talk</a>

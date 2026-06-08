@@ -5,63 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/output.css" />
     <link rel="icon" type="image/png" href="img/download.png" />
+    <link rel="stylesheet" href="src/main.css" />
     <title>Tugas Clone</title>
   </head>
   <body class="font-sans">
     <!-- Navbar Utama -->
-    <header class="bg-white border-b border-black">
-      <nav class="py-4 h-70px flex items-center px-[110px]">
-        <img
-          src="img/Screenshot_2026-04-26_145119-removebg-preview.png"
-          alt="mediatek"
-          class="w-[132px] h-auto mr-8"
-        />
-
-        <ul class="flex items-center gap-6">
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Products</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Technology</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Investors</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Company</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Newsroom</a>
-          </li>
-          <li>
-            <a href="#" class="text-[20px] hover:text-[#FF9800]">Video</a>
-          </li>
-          <li><a href="#" class="text-[20px] hover:text-[#FF9800]">Blog</a></li>
-        </ul>
-
-        <div class="flex items-center gap-5 ml-auto">
-          <img
-            src="img/search-interface-symbol.png"
-            alt="search"
-            class="w-7 h-7"
-          />
-          <img src="img/globe.png" alt="globe" class="w-7 h-7" />
-        </div>
-      </nav>
+    <header>
+      <div class="py-4 border-b border-black bg-white">
+        <nav class="flex">
+          <a href="index.html">
+            <img
+              src="img/Screenshot_2026-04-26_145119-removebg-preview.png"
+              alt="mediatek"
+              class="w-40 h-auto ml-30 pr"
+          /></a>
+          <ul class="list-none ml-2 flex gap-5">
+            <li>
+              <a
+                href="index2.html"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Product</a
+              >
+            </li>
+            <li>
+              <a
+                href="index3.html"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Technology</a
+              >
+            </li>
+            <li>
+              <a
+                href="index4.html"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Investors</a
+              >
+            </li>
+            <li>
+              <a
+                href="index5.html"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Company</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Newsroom</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Video</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="no-underline text-[20px] text-black transition duration-380 ease hover:text-[#FF9800]"
+                >Blog</a
+              >
+            </li>
+          </ul>
+          <div class="flex items-center ml-auto mr-20 gap-5">
+            <img src="img/search-interface-symbol.png" alt="" class="w-6 h-6" />
+            <img src="img/globe.png" alt="" class="w-6 h-6" />
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!-- Navbar Sticky Saat Scroll -->
     <div
       id="stickyNavbar"
-      class="sticky top-0 z-50 h-[54px] bg-white/80 backdrop-blur-sm flex items-center justify-between px-[120px] border-b border-gray-200"
+      class="sticky top-0 z-50 h-15 bg-white/80 backdrop-blur-sm flex items-center justify-between px-[120px] border-b border-gray-200"
     >
-      <div class="flex items-center gap-3 text-[18px]">
-        <a href="index.html" class="text-[#666666]">Home</a>
-        <span class="text-[#666666]">/</span>
-        <a href="#" class="text-black font-semibold">Investor Relations</a>
+      <div class="flex items-center gap-2 text-[#9A9A9A]">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <a href="#" class="text-black">Investor Relations</a>
       </div>
 
-      <div class="flex items-center gap-5 text-[18px] text-[#666666]">
+      <div class="flex items-center gap-4 text-[#9A9A9A]">
         <a href="#" class="hover:text-black">Overview</a>
         <a href="#" class="hover:text-black">Events</a>
         <a href="#" class="hover:text-black">Press Releases</a>
@@ -372,112 +400,120 @@
 
       <div class="bg-[#FF9800] h-15"></div>
 
-    <footer class="text-[#656565]">
-      <div class="bg-white w-full h-165 px-23 py-30">
-        <div
-          class="flex gap-10 border-y border-black py-15 px-10 justify-center overflow-hidden"
-        >
-          <div class="max-w-40">
-            <h2 class="text-lg font-bold text-black">Product</h2>
-            <div class="flex flex-col gap-2 mt-5">
-              <p>Smartphones</p>
-              <p>Smart Home</p>
-              <p>Networking and Connectivity</p>
-              <p>Internet of Things</p>
-              <p>Chromebooks & Tablets</p>
-              <p>Automotive</p>
-              <p>ASC</p>
+      <footer class="text-[#656565]">
+        <div class="bg-white w-full h-165 px-23 py-30">
+          <div
+            class="flex gap-10 border-y border-black py-15 px-10 justify-center overflow-hidden"
+          >
+            <div class="max-w-40">
+              <h2 class="text-lg font-bold text-black">Product</h2>
+              <div class="flex flex-col gap-2 mt-5">
+                <p>Smartphones</p>
+                <p>Smart Home</p>
+                <p>Networking and Connectivity</p>
+                <p>Internet of Things</p>
+                <p>Chromebooks & Tablets</p>
+                <p>Automotive</p>
+                <p>ASC</p>
+              </div>
             </div>
-          </div>
-          <div class="max-w-42">
-            <h2 class="text-lg font-bold text-black">Technology</h2>
-            <div class="flex flex-col gap-2 mt-5">
-              <p>5G</p>
-              <p>Artificial Intelligen</p>
-              <p>Wi-Fi</p>
-              <p>MediaTek HyperEngine</p>
-              <p>Display for Smartphones</p>
-              <p>Camera for Smartphones</p>
-              <p>MediaTek CorePilot</p>
+            <div class="max-w-42">
+              <h2 class="text-lg font-bold text-black">Technology</h2>
+              <div class="flex flex-col gap-2 mt-5">
+                <p>5G</p>
+                <p>Artificial Intelligen</p>
+                <p>Wi-Fi</p>
+                <p>MediaTek HyperEngine</p>
+                <p>Display for Smartphones</p>
+                <p>Camera for Smartphones</p>
+                <p>MediaTek CorePilot</p>
+              </div>
             </div>
-          </div>
-          <div>
-            <h2 class="text-lg font-bold text-black">Company</h2>
-            <div class="flex flex-col gap-2 mt-5">
-              <p>Discover</p>
-              <p>About MediaTek</p>
-              <p>Contact Us</p>
-              <p>Report Security Vulnerability</p>
-              <p class="pt-5">Careers</p>
-              <div class="flex gap-5 mt-10">
-                <img
-                  src="img/facebook-app-symbol.jpeg"
-                  alt="facebook-app-symbol"
-                  class="w-7 h-auto"
-                />
-                <span class="border-r border-black"></span>
-                <img
-                  src="img/linkedin-logo.jpeg"
-                  alt="linkedin-logo"
-                  class="w-7 h-auto"
-                />
-                <span class="border-r border-black"></span>
-                <img
-                  src="img/instagram.jpeg"
-                  alt="instagram"
-                  class="w-7 h-auto"
-                />
-                <span class="border-r border-black"></span>
-                <img src="img/youtube.jpeg" alt="youtube" class="w-7 h-auto" />
-                <span class="border-r border-black"></span>
-                <img src="img/threads.jpeg" alt="threads" class="w-7 h-auto" />
+            <div>
+              <h2 class="text-lg font-bold text-black">Company</h2>
+              <div class="flex flex-col gap-2 mt-5">
+                <p>Discover</p>
+                <p>About MediaTek</p>
+                <p>Contact Us</p>
+                <p>Report Security Vulnerability</p>
+                <p class="pt-5">Careers</p>
+                <div class="flex gap-5 mt-10">
+                  <img
+                    src="img/facebook-app-symbol.jpeg"
+                    alt="facebook-app-symbol"
+                    class="w-7 h-auto"
+                  />
+                  <span class="border-r border-black"></span>
+                  <img
+                    src="img/linkedin-logo.jpeg"
+                    alt="linkedin-logo"
+                    class="w-7 h-auto"
+                  />
+                  <span class="border-r border-black"></span>
+                  <img
+                    src="img/instagram.jpeg"
+                    alt="instagram"
+                    class="w-7 h-auto"
+                  />
+                  <span class="border-r border-black"></span>
+                  <img
+                    src="img/youtube.jpeg"
+                    alt="youtube"
+                    class="w-7 h-auto"
+                  />
+                  <span class="border-r border-black"></span>
+                  <img
+                    src="img/threads.jpeg"
+                    alt="threads"
+                    class="w-7 h-auto"
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2 class="text-lg font-bold text-black">Join our newsletter</h2>
+              <div class="mt-15 ml-5">
+                <fieldset class="border border-black w-40 h-13">
+                  <legend class="text-xs px-2 ml-2">
+                    Enter your name <span class="text-red-500">*</span>
+                  </legend>
+                  <p class="pl-2">Full Name</p>
+                </fieldset>
+                <fieldset class="border border-black mt-8 w-40 h-13">
+                  <legend class="text-xs text-right px-2">
+                    Enter your E-mail Address<span class="text-red-500">*</span>
+                  </legend>
+                  <p class="pl-2">E-mail Address</p>
+                </fieldset>
+                <div class="flex mt-8">
+                  <div
+                    class="border border-black p-1 w-2 h-2 rounded-xs mt-1.5 cursor-pointer"
+                  ></div>
+                  <p class="pl-1">
+                    I agree with the MediaTek Privacy Policy
+                    <span class="text-red-500">*</span>
+                  </p>
+                </div>
+                <button
+                  type="submit"
+                  class="bg-[#FF9800] rounded-2xl py-1 px-3 text-white mt-5"
+                >
+                  Subscribe
+                </button>
               </div>
             </div>
           </div>
-          <div>
-            <h2 class="text-lg font-bold text-black">Join our newsletter</h2>
-            <div class="mt-15 ml-5">
-              <fieldset class="border border-black w-40 h-13">
-                <legend class="text-xs px-2 ml-2">
-                  Enter your name <span class="text-red-500">*</span>
-                </legend>
-                <p class="pl-2">Full Name</p>
-              </fieldset>
-              <fieldset class="border border-black mt-8 w-40 h-13">
-                <legend class="text-xs text-right px-2">
-                  Enter your E-mail Address<span class="text-red-500">*</span>
-                </legend>
-                <p class="pl-2">E-mail Address</p>
-              </fieldset>
-              <div class="flex mt-8">
-                <div
-                  class="border border-black p-1 w-2 h-2 rounded-xs mt-1.5 cursor-pointer"
-                ></div>
-                <p class="pl-1">
-                  I agree with the MediaTek Privacy Policy
-                  <span class="text-red-500">*</span>
-                </p>
-              </div>
-              <button
-                type="submit"
-                class="bg-[#FF9800] rounded-2xl py-1 px-3 text-white mt-5"
-              >
-                Subscribe
-              </button>
+          <div class="flex items-center px-10">
+            <img src="img/Mediatek-bg.png" alt="mediatek" class="w-50 h-auto" />
+            <div class="flex flex-row gap-10 ml-auto">
+              <p>Cookie Statement</p>
+              <p>Terms of Use</p>
+              <p>Privacy Policy</p>
+              <p>Copyright 2026 MediaTek.All rights teserved</p>
             </div>
           </div>
         </div>
-        <div class="flex items-center px-10">
-          <img src="img/Mediatek-bg.png" alt="mediatek" class="w-50 h-auto" />
-          <div class="flex flex-row gap-10 ml-auto">
-            <p>Cookie Statement</p>
-            <p>Terms of Use</p>
-            <p>Privacy Policy</p>
-            <p>Copyright 2026 MediaTek.All rights teserved</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </main>
-</body>
+      </footer>
+    </main>
+  </body>
 </html>
